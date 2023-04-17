@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@200&display=swap');
+*{
+	margin: 0;
+	padding: 0;	
+}
+nav{
+	font-family: 'Orbitron', sans-serif;
+	background-color: black;
+	color: white;
+	height: 35px;
+	font-size: 20px;
+	align-items: center;
+	display: flex;
+	padding: 5px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+.game_con{
+	background-color: rgb(146, 173, 137);
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	/* font-family: 'Poppins', sans-serif; */
+	font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.9);
+	display:grid;
+	font-family: 'Orbitron', sans-serif;
+	grid-template-rows: repeat(3,8vw);
+	grid-template-columns: repeat(3,8vw);
+}
+
+.box{
+	border: 2px solid black;
+	font-size: 3vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.game_info {
+	background-color: orange;
+}
