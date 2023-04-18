@@ -51,13 +51,13 @@ nav ul{
 	text-align: center;
 	padding-left: 5px;
 	padding-right: 5px;
+	padding-bottom: 25px;
 }
 
 .game_info {
 	/* background-color: rgb(249, 174, 35); */
 	margin:100px;
-	font-size: 30px;
-
+	font-size: 30px;	
 }
 
 .bl-0{
@@ -77,11 +77,13 @@ nav ul{
 }
 
 #reset{
-	margin-left: 5px;
-	padding: 5px;
+	
+	margin-top: 20px;
+	padding: 15px;
 	background-color: rgb(45, 19, 176);
 	color: white;
 	font-family: 'Orbitron', sans-serif;
+	font-size: 15px;
 	border-radius: 10px;
 }
 
@@ -89,5 +91,20 @@ nav ul{
 {
 	.game_con{
 		flex-wrap: wrap;
+	}
+	.game_info{
+		font-size: 4vw;
+	}
+	.heading{
+		margin-bottom: 30px;
+		font-size: 4vw;
+	}
+	.status{
+		font-size: 4vw;
+	}
+	#reset{
+		margin-top: 20px;
+		margin-left: 40%;
+		padding: 15px;
 	}
 }
