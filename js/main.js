@@ -62,6 +62,7 @@ reset.addEventListener('click',()=>{
 	let box_text=document.querySelectorAll('.box_text');
 	Array.from(box_text).forEach(element => {
 		element.innerText='';
+		element.parentElement.style.backgroundColor='white';
 	});
 	turn = sym[Math.floor(Math.random()*2)];
 	gameState='IN PROGRESS';
