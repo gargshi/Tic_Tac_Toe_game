@@ -1,6 +1,6 @@
 
 let gameState="IN PROGRESS";
-
+let wincolor='lime';
 let reset=document.getElementById("reset");
 
 // function for turn change
@@ -30,6 +30,9 @@ const win_check=()=>{
 		if ((bt[ele[0]-1].innerText === bt[ele[1]-1].innerText) && (bt[ele[1]-1].innerText === bt[ele[2]-1].innerText) && (bt[ele[0]-1].innerText !== ''))
 		{
 			document.querySelector('.status').innerText = "Winner is :"+ bt[ele[0]-1].innerText;
+			bt[ele[0]-1].parentElement.style.backgroundColor=wincolor;
+			bt[ele[1]-1].parentElement.style.backgroundColor=wincolor;
+			bt[ele[2]-1].parentElement.style.backgroundColor=wincolor;
 			gameState='OVER';
 		}
 	});
