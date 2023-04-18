@@ -92,13 +92,12 @@ nav ul{
 	.game_con{
 		flex-wrap: wrap;
 	}
-	.game_info{
-		font-size: 4vw;
-	}
+
 	.heading{
 		margin-bottom: 30px;
 		font-size: 4vw;
 	}
+
 	.status{
 		font-size: 4vw;
 	}
